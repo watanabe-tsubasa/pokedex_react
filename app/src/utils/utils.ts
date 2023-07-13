@@ -81,4 +81,27 @@ let _pokemonData = await Promise.all(
     return _pokemonData as [PokemonData]
 }
 
-export { commonHoverStyle, commonButtonHoverStyle, getList, getPokeData, PokemonData };
+const calcPowerWeight = (weight: number) => {
+  if(weight < 90){
+    return 20;
+  } else if(weight < 249){
+    return 40;
+  } else if(weight < 499){
+    return 60;
+  } else if(weight < 999){
+    return 80;
+  } else if(weight < 1999){
+    return 100;
+  } else{
+    return 120
+  } 
+};
+
+const hiraToKata = (text: string) => {
+  return text.replace(/[\u3041-\u3096]/g, (match) => {
+    const chr = match.charCodeAt(0) + 0x60;
+    return String.fromCharCode(chr);
+  });
+};
+
+export { commonHoverStyle, commonButtonHoverStyle, getList, getPokeData, calcPowerWeight, hiraToKata, PokemonData };

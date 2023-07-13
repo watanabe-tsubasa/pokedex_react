@@ -22,24 +22,26 @@ const Textbutton: React.FC<TextbuttonProps> = (props) => {
         </Text>
       </Flex>
       <Flex justify="center"  mb={2}>
-      <ButtonGroup spacing='2'>
-        {tytle === "abilities" && pokeData.abilities ? (
-          pokeData.abilities.map((elem: { ability: { name: string } }) => (
-            <Typebutton key={elem.ability.name}>{elem.ability.name}</Typebutton>
-          ))
-        ) : tytle === "types" && pokeData.types ? (
-          pokeData.types.map((elem: { type: { name: string } }) => (
-            <Typebutton key={elem.type.name}>{elem.type.name}</Typebutton>
-          ))
-        ) : tytle === "held_items" && pokeData.held_items ? (
-          pokeData.held_items.map((elem: { item: { name: string } }) => (
-            <Typebutton key={elem.item.name}>{elem.item.name}</Typebutton>
-          ))
-        ) : (
-          "存在しませんでした"
-        )}
-      </ButtonGroup>
-
+        <Flex maxW={350} overflow="auto">
+          <ButtonGroup spacing='2'>
+            {tytle === "abilities" && pokeData.abilities ? (
+              [...new Set(pokeData.abilities.map((elem: { ability: { name: string } }) => elem.ability.name))]
+              .map((abilityName: string) => (
+                  <Typebutton key={abilityName}>{abilityName}</Typebutton>
+                ))
+            ) : tytle === "types" && pokeData.types ? (
+              pokeData.types.map((elem: { type: { name: string } }) => (
+                <Typebutton key={elem.type.name}>{elem.type.name}</Typebutton>
+              ))
+            ) : tytle === "held_items" && pokeData.held_items ? (
+              pokeData.held_items.map((elem: { item: { name: string } }) => (
+                <Typebutton key={elem.item.name}>{elem.item.name}</Typebutton>
+              ))
+            ) : (
+              "存在しませんでした"
+            )}
+          </ButtonGroup>
+        </Flex>
       </Flex>
     </Box>
   )

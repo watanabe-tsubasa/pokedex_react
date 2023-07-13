@@ -1,6 +1,6 @@
 import React, { memo } from 'react'
 import { Box, Card, CardBody, Divider, Flex, HStack, Heading, Image, StackDivider, Text, VStack } from '@chakra-ui/react'
-import { PokemonData } from '../../utils/utils';
+import { PokemonData, calcPowerWeight } from '../../utils/utils';
 import { Textbutton } from './molecules/Textbutton';
 import { commonHoverStyle } from '../../utils/utils';
 import { enToJa } from '../../utils/enToJa';
@@ -24,9 +24,9 @@ const Cardcontainer: React.FC<CardconteinerProps> = memo((props) => {
     <Box
       className='CardContainer'
       mx={4}
-      my={2}
+      mb={4}
     >
-      <Card maxW='sm'>
+      <Card width={350}>
         <CardBody>
           <Flex justify='center' align='center'>
             <Heading color='blackAlpha.800' size='xl'>{translation}</Heading>
@@ -52,6 +52,7 @@ const Cardcontainer: React.FC<CardconteinerProps> = memo((props) => {
               <HStack spacing='2'>
                 <Text color='blackAlpha.800' fontSize='xl'>weight</Text>
                 <Text color='blackAlpha.800' fontSize='xl'>{pokeData.weight}</Text>
+                <Text color='blackAlpha.800' fontSize='xl'>( {pokeData.weight ? calcPowerWeight(pokeData.weight): null} )</Text>
               </HStack>
             </Box>
           </VStack>

@@ -20,7 +20,7 @@ const Pagebody: React.FC<PagebodyProps> = memo((props) => {
   
   return (
     <>
-      <Flex flexWrap="wrap" justify='center'>
+      <Flex flexWrap="wrap" justify='center' mt={2}>
         {pokeDataList.map(elem => <Cardcontainer key={elem.name} pokeData={elem} onClickImg={onClickImg} />)}
       </Flex>
       <PokeModal isOpen={isOpen} onClose={onClose} pokeData={modalPokeData} />
