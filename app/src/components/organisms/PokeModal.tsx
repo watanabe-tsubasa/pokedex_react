@@ -24,15 +24,15 @@ const PokeModal: React.FC<PokeModalProps> = memo((props)=> {
           <ModalHeader>{pokeData.name}</ModalHeader>
           <ModalCloseButton />
           <ModalBody>
-            <Flex wrap="wrap">
-              <Box flex={1} minWidth={350} flexGrow={1} flexBasis="0">
+            <Flex wrap="wrap" justifyContent="center" align="flex-start">
+              <Box flex={1} width={350} flexGrow={1} flexBasis="0">
                 <VStack>
                   <Cardcontainer pokeData={pokeData} onClickImg={()=>{return}}/>
                 </VStack>
               </Box>
-              <Box flex={1} minWidth={350} flexGrow={1} flexBasis="0">
+              <Box flex={1} flexGrow={1} flexBasis="0">
                 <VStack>
-                  <Card minW={350}>
+                  <Card width={350}>
                     <CardBody>
                       <Statscontainer pokeData={pokeData}/>
                       <Divider/>

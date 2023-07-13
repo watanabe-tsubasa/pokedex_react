@@ -52,7 +52,7 @@ const Pageheader: React.FC<PageheaderProps> = memo((props) => {
 
   return (
     <>
-      <Box position="sticky" top={0} left={0} right={0} bg="red.300" boxShadow="md" p={4} zIndex={999}>
+      <Box position="sticky" top={0} left={0} right={0} bg="red.300" boxShadow="md" p={4} zIndex="sticky">
         <Flex align="center" py={2} wrap="wrap">
           <Box mb={2}>
             <Button variant="unstyled" onClick={handleReloadPage}>
@@ -62,7 +62,7 @@ const Pageheader: React.FC<PageheaderProps> = memo((props) => {
             </Button>
           </Box>
           <Spacer/>
-          <Box mb={2}>
+          <Box mb={2} zIndex="tooltip">
             <InputButton
               placeholder='Enter PokeName'
               buttonText='search'
@@ -71,7 +71,7 @@ const Pageheader: React.FC<PageheaderProps> = memo((props) => {
             />
           </Box>
           <Spacer/>
-          <Stack spacing={2} direction='row' align='center' ml="auto" mb={2}>
+          <Stack spacing={2} direction='row' align='center' ml="auto" mb={2} zIndex="sticky">
             <CommonButton onClick={onClickPrev}>
               Prev 100
             </CommonButton>
@@ -87,7 +87,6 @@ const Pageheader: React.FC<PageheaderProps> = memo((props) => {
         </Flex>
       </Box>
       <PokeModal isOpen={isOpen} onClose={onClose} pokeData={pokeData}/>
-
     </>
   );
 })
