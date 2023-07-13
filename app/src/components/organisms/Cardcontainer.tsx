@@ -17,8 +17,8 @@ const Cardcontainer: React.FC<CardconteinerProps> = memo((props) => {
     onClickImg(alt);
   };
   const { name } = pokeData;
-  const capitalName = name ? name.charAt(0).toUpperCase() + name.slice(1):"";
-  const translation = enToJa[capitalName as keyof typeof enToJa] || capitalName
+  const lowerName = name?.toLowerCase()
+  const translation = enToJa[lowerName as keyof typeof enToJa] || lowerName
 
   return (
     <Box
@@ -35,7 +35,7 @@ const Cardcontainer: React.FC<CardconteinerProps> = memo((props) => {
           <Flex justify='center' align='center'>
             <Image
               src={pokeData.sprites ? pokeData.sprites.other["official-artwork"].front_default || pokeData.sprites.front_default : "public/noimage-1.png"}
-              alt={pokeData.name}
+              alt={lowerName}
               boxSize={250}
               sx={commonHoverStyle}
               onClick={handleImageClick}
