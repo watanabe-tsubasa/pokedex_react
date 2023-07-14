@@ -8,7 +8,7 @@ import { InputButton } from "./organisms/molecules/InputButton";
 import { MouseEventHandler, memo } from "react";
 import { PokeModal } from "./organisms/PokeModal";
 import { PokemonData } from "../utils/utils";
-import { jaToEn } from "../utils/jaToEn";
+import { jaToEn } from "../utils/enToJa";
 
 type PageheaderProps = {
   title: string;
@@ -91,4 +91,4 @@ const Pageheader: React.FC<PageheaderProps> = memo((props) => {
   );
 })
 
-export { Pageheader};
+export { Pageheader };

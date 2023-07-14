@@ -1096,7 +1096,7 @@ const enToJa = {
   "oricorio-sensu": "オドリドリ（まいまい）",
   "oricorio-pau": "オドリドリ（ふらふら）",
   "pikachu-pop-star": "ピカチュウ（ポップスター）",
-  "gumshoos-totem": "デカグース（トーテム）",
+  "gumshoos-totem": "デカグース（ぬし）",
   "geodude-alola": "イシツブテ（アローラ）",
   "grimer-alola": "ベトベター（アローラ）",
   "medicham-mega": "チャーレム（メガ）",
@@ -1107,7 +1107,7 @@ const enToJa = {
   "lycanroc-midnight": "ルガルガン（真夜中）",
   "abomasnow-mega": "ユキノオー（メガ）",
   "zygarde-50-power-construct": "ジガルデ（50%）",
-  "salazzle-totem": "エンニュート（トーテム）",
+  "salazzle-totem": "エンニュート（ぬし）",
   "slowbro-mega": "ヤドラン（メガ）",
   "minior-yellow-meteor": "メテノ（黄流星）",
   "steelix-mega": "ハガネール（メガ）",
@@ -1118,30 +1118,30 @@ const enToJa = {
   "sharpedo-mega": "サメハダー（メガ）",
   "diancie-mega": "ディアンシー（メガ）",
   "banette-mega": "ジュペッタ（メガ）",
-  "vikavolt-totem": "クワガノン（トーテム）",
+  "vikavolt-totem": "クワガノン（ぬし）",
   "minior-violet-meteor": "メテノ（紫流星）",
   "pikachu-rock-star": "ピカチュウ（ロックスター）",
   "glalie-mega": "オニゴーリ（メガ）",
-  "kommo-o-totem": "ジャラランガ（トーテム）",
+  "kommo-o-totem": "ジャラランガ（ぬし）",
   "salamence-mega": "ボーマンダ（メガ）",
   "pikachu-libre": "ピカチュウ（マスクドバトラー）",
   "minior-green-meteor": "メテノ（緑流星）",
   "pikachu-cosplay": "ピカチュウ（コスプレ）",
-  "lurantis-totem": "ラランテス（トーテム）",
+  "lurantis-totem": "ラランテス（ぬし）",
   "sableye-mega": "ヤミラミ（メガ）",
   "minior-yellow": "メテノ（黄）",
   "aegislash-blade": "ギルガルド（ブレードフォルム）",
-  "mimikyu-totem-busted": "ミミッキュ（トーテム・ばれた姿）",
+  "mimikyu-totem-busted": "ミミッキュ（ぬし・ばれた姿）",
   "pumpkaboo-super": "バケッチャ（特大）",
   "necrozma-dusk": "ネクロズマ（たそがれのたてがみ）",
-  "ribombee-totem": "アブリボン（トーテム）",
+  "ribombee-totem": "アブリボン（ぬし）",
   "sandslash-alola": "サンドパン（アローラ）",
   "minior-indigo-meteor": "メテノ（藍流星）",
   "greninja-battle-bond": "ゲッコウガ（バトルボンド）",
   "lopunny-mega": "ミミロップ（メガ）",
   "necrozma-dawn": "ネクロズマ（あかつきのつばさ）",
   "zygarde-10-power-construct": "ジガルデ（10%フォルム）",
-  "raticate-totem-alola": "ラッタ（トーテム・アローラ）",
+  "raticate-totem-alola": "ラッタ（ぬし・アローラ）",
   "eevee-starter": "イーブイ（let's go）",
   "meowth-galar": "ニャース（ガラル）",
   "minior-indigo": "メテノ（藍）",
@@ -1149,7 +1149,7 @@ const enToJa = {
   "minior-orange": "メテノ（橙）",
   "slowpoke-galar": "ヤドン（ガラル）",
   "ponyta-galar": "ポニータ（ガラル）",
-  "togedemaru-totem": "トゲデマル（トーテム）",
+  "togedemaru-totem": "トゲデマル（ぬし）",
   "slowbro-galar": "ヤドラン（ガラル）",
   "diglett-alola": "ディグダ（アローラ）",
   "weezing-galar": "マタドガス（ガラル）",
@@ -1194,12 +1194,12 @@ const enToJa = {
   "cinderace-gmax": "エースバーン（キョダイマックス）",
   "minior-red": "メテノ（赤）",
   "minior-green": "メテノ（緑）",
-  "mimikyu-totem-disguised": "ミミッキュ（トーテム ばけた姿）",
+  "mimikyu-totem-disguised": "ミミッキュ（ぬし ばけた姿）",
   "eiscue-noice": "コオリッポ（ナイス）",
   "drednaw-gmax": "カジリガメ（キョダイマックス）",
   "toxtricity-amped-gmax": "ストリンダー（キョダイマックス）",
   "lapras-gmax": "ラプラス（キョダイマックス）",
-  "araquanid-totem": "オニシズクモ（トーテム）",
+  "araquanid-totem": "オニシズクモ（ぬし）",
   "meowth-gmax": "ニャース（キョダイマックス）",
   "appletun-gmax": "タルップル（キョダイマックス）",
   "magearna-original": "マギアナ（500年前）",
@@ -1214,7 +1214,7 @@ const enToJa = {
   "necrozma-ultra": "ウルトラネクロズマ",
   "urshifu-single-strike-gmax": "ウーラオス（一撃・キョダイマックス）",
   "gengar-gmax": "ゲンガー（キョダイマックス）",
-  "marowak-totem": "ガラガラ（トーテム）",
+  "marowak-totem": "ガラガラ（ぬし）",
   "alcremie-gmax": "マホイップ（キョダイマックス）",
   "electrode-hisui": "マルマイン（ヒスイ）",
   "urshifu-rapid-strike-gmax": "ウーラオス（連撃・キョダイマックス）",
@@ -1281,4 +1281,15 @@ const enToJa = {
   "sandaconda-gmax": "サダイジャ（キョダイマックス）",
   "centiskorch-gmax": "マルヤクデ（キョダイマックス）"}
 
-export { enToJa };
+const convertKeyVal = (obj: {[key: string]: string}):{[key: string]: string} => {
+  const convertedObj:{[key: string]: string} = {};
+  for (const key in obj) {
+    const val = obj[key];
+    convertedObj[val as string] = key;
+  }
+  return convertedObj;
+}
+
+const jaToEn = convertKeyVal(enToJa);
+
+export { enToJa, jaToEn };

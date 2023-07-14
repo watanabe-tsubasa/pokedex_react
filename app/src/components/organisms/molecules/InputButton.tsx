@@ -1,8 +1,8 @@
 import React, { useState, memo, useMemo, KeyboardEvent, MouseEvent } from "react";
 import { List, ListItem, Input, InputGroup, InputLeftAddon, HStack, Box } from "@chakra-ui/react";
 import { CommonButton } from "./atoms/Commonbutton";
-import { jaToEn } from "../../../utils/jaToEn";
 import { hiraToKata } from "../../../utils/utils";
+import { jaToEn } from "../../../utils/enToJa";
 
 type InputButtonProps = {
   placeholder: string;
