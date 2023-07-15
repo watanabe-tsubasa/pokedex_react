@@ -11,18 +11,18 @@ const data =  {
 
 ## 修正ルール
 
-〇〇-heat: 〇〇（ヒート）,
-〇〇-therian:〇〇（霊獣）,
-〇〇-primal:〇〇（原始）,
-〇〇-mega:〇〇（メガ）,
-〇〇-mega-x:〇〇X（メガ）,
-〇〇-mega-y:〇〇Y（メガ）,
-〇〇-dawn: 〇〇（月食）,
-〇〇-gmax':〇〇（Gmax）
-〇〇-alola: 〇〇（アローラ）,
-〇〇-galar: 〇〇（ガラル）,
-〇〇-hisui: 〇〇（ヒスイ）,
-〇〇-paldea: 〇〇（パルデア）,
+[pokeName]-heat:[pokeName]（ヒート）,
+[pokeName]-therian:[pokeName]（霊獣）,
+[pokeName]-primal:[pokeName]（原始）,
+[pokeName]-mega:[pokeName]（メガ）,
+[pokeName]-mega-x:[pokeName]X（メガ）,
+[pokeName]-mega-y:[pokeName]Y（メガ）,
+[pokeName]-dawn:[pokeName]（月食）,
+[pokeName]-gmax':[pokeName]（Gmax）
+[pokeName]-alola:[pokeName]（アローラ）,
+[pokeName]-galar:[pokeName]（ガラル）,
+[pokeName]-hisui:[pokeName]（ヒスイ）,
+[pokeName]-paldea:[pokeName]（パルデア）,
 
 ## 修正例
 
