@@ -1,14 +1,15 @@
-次のオブジェクトに対して、空配列の部分に例に従って日本語のポケモン名をわかる範囲で入力をお願いします。
-また、修正ルールと修正例に従って、出力を修正してください
+# 次のオブジェクトに対して、空配列の部分に例にしたがって日本語のポケモン名をわかる範囲で入力をお願いします
 
-## 例 ##
+また、修正ルールと修正例にしたがって、出力を修正してください
+
+## 例
 
 const data =  {
   'deoxys-normal': 'デオキシス',
   'darmanitan-standard': 'ヒヒダルマ',
 }
 
-## 修正ルール ##
+## 修正ルール
 
 〇〇-heat: 〇〇（ヒート）,
 〇〇-therian:〇〇（霊獣）,
@@ -23,7 +24,7 @@ const data =  {
 〇〇-hisui: 〇〇（ヒスイ）,
 〇〇-paldea: 〇〇（パルデア）,
 
-## 修正例 ##
+## 修正例
 
 thundurus-therian:ボルトロス（霊獣）,
 kyogre-primal: カイオーガ（原始）,
@@ -37,7 +38,7 @@ slowpoke-galar: ヤドン（ガラル）,
 typhlosion-hisui: バクフーン（ヒスイ）,
 wooper-paldea: ウパー（パルデア）,
 
-## オブジェクト ##
+## オブジェクト
 
 const data =  {
   'deoxys-normal': '',
@@ -340,4 +341,3 @@ const data =  {
   'sandaconda-gmax': '',
   'centiskorch-gmax': ''
 }
-
